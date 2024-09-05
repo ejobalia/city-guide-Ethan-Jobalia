@@ -24,5 +24,91 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <!-- Main Body -->
+        <section>
+            <header id="Food-and-Beverages">
+                <h2>Food and Beverages</h2>
+            </header>
+
+            <img src="Brazil-Coffeegrounds.jpg" alt="Brazil Coffeegrounds">
+            <img src="mario-brothers-mexican.jpg" alt="Mario Bro's">
+            <img src="Jacks-Fine-Foods.jpg" alt="Jack's Fine Foods">
+
+            <div id="Coffee">
+                <h3>Brazil Coffeegrounds</h3>
+                    <p>Thirsty? Tired? Brazil Coffeegrounds can solve both of those problems! Stop by for some <strong>STRONG</strong> coffee. Brazil coffeegrounds opened up in 1999, but had to reclose again due to problems with the computers resetting on January 1st 2000. Since then, they have opened and closed seven times, each time with better, stronger coffee. In 2011 they began manually infusing their coffee with extra caffiene, and today you will find them to have coffee that is 90% manually infused caffeine and only 10% actual coffee.</p>
+                </div>
+            <div id="Mario">
+                <h3>Mario Bro's Mexican Cantina</h3>
+                    <p>Come for the fajitas, stay for the <em>$1.99 Margaritas</em> on Tuesdays and Thursdays. This is the perfect place to cut loose after your car breaks down. You're not driving tonight anyway! Mario Bro's Mexican Cantina may be easily confused with a Nintendo game of a similar name, but rest assured, these Mario Bro's family name goes back decades. Here you will find the most authentic Tex-Mex this side of the Wabash! Cheap food, and good vibes are the rule here. </p>
+            </div>
+            <div id="Jack">
+                <h3>Jack's Fine Foods</h3>
+                    <p>Beef! Chicken! Other farme-y things! If it's on a farm we serve it up here! Jack's Fine Foods was founded by Jack Buchanan in 1946 upon his return from the European theater of the Second World War. After a successful many years of providing food to all the diverse communities of Brazil, IN, he retired, and passed the store onto his son, Jack Buchanan. After him, his daughter, Jackie Buchanan took over, and finally, her son Jack Buchanan just took over the store in late 2015. Their inventory has remained largely unchanged from the home goods one could find there in 1946, with the same quality and, more importantly, the same prices! <strong>Great Deal:</strong> 5% off your deli order if you provide the chicken yourself.</p>
+            </div>
+        </section>
+        <section>
+            <header id="Local-Attractions">
+                <h2>Local Attractions</h2>
+            </header>
+
+            <img src="cataract_falls.jpg" alt="Cataract Falls">
+            <img src="harmonie-park.jpg" alt="Harmony Park">
+
+            <div id="Cataract">
+                <h3>Cataract Falls</h3>
+                    <p>Cataract Falls is one of the hidden jewels of Indiana. This state park is a short half hour drive from Brazil, and boasts waterfalls, a river you can wade through, and fishing spots up and down the Cataracts. Nearby, you can find an ice cream shop in a schoolhouse that remains unchanged since the 1800s, and an authentic old time general store. The beauty one can find staring off the bridge over the cataracts will stop you in your tracks, and even the bridge itself is a marvel. There are carvings in the wood that date back to the 1940's, as the bridge has been standing for over a century! If you see one thing on your trip to Brazil, Indiana, make it this.</p>
+            </div>
+            <div id="Harmony">
+                <h3>Harmony Park</h3>
+                    <p>Harmony Park, while not technically within the bounds of Brazil proper, is just a hop, skip, and a jump away from our border! We know, why would you ever want to leave sunny Brazil (not the one you're thinking of...), but you may be pleasantly surprised to find Harmony Park as a little slice of Eden. Picture a Monet in real life, people picnicing on warm days, children playing on the playsets. Harmony park lives up to its name and more, and if you're in the area, you'd be remiss to not stop by!</p>
+            </div>
+        </section>
+
+        <section>
+            <header id="Map-Time">
+                <h2>Map Time!</h2>
+            </header>
+
+            <!-- Begin Map Embed -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24621.91460097797!2d-87.14388841906977!3d39.52037268222488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886d114506afe991%3A0xffbf7d22ff6f4521!2sBrazil%2C%20IN%2047834!5e0!3m2!1sen!2sus!4v1725390572405!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- End Map Embed -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer -->
+         <form>
+            <h2 id="Send-a-Note">Send us a note!</h2>
+            <!-- Begin Select -->
+            <label for="rewrite">Have you written us before?</label>
+            <select name="rewrite" id="rewrite">
+                <option value="select">- Select -</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <!-- End Select -->
+            <!-- Begin Radio -->
+            <p>Which attraction is this concerning?</p>
+            <input type="radio" id="cof" name="attraction" value="cof">
+            <label for="cof">Brazil Coffeegrounds</label><br>
+            <input type="radio" id="mar" name="attraction" value="mar">
+            <label for="mar">Mario Bro's Mexican Cantina</label><br>
+            <input type="radio" id="jac" name="attraction" value="jac">
+            <label for="jac">Jack's Fine Foods</label><br>
+            <input type="radio" id="cat" name="attraction" value="cat">
+            <label for="cat">Cataract Falls</label><br>
+            <input type="radio" id="har" name="attraction" value="har">
+            <label for="har">Harmony Park</label><br><br>
+            <!-- End Radio -->
+            <label for="email">Enter email:</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="note">Enter note:</label><br>
+            <input type="text" id="note" name="note"><br><br>
+            <button type="submit" value="Submit">Submit!</button>
+         </form>
+    </footer>
 </body>
 </html>
